@@ -1,0 +1,8 @@
+.main{
+  background: green;
+  display: flex;
+  &__content{
+    background: red;
+    width: 80%;
+  }
+}

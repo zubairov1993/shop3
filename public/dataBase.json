@@ -1,0 +1,674 @@
+{ 
+  "glassCover": [
+    {
+      "model" : "iphone",
+      "image" : "http://www.savassicelular.com.br/wp-content/uploads/2017/10/iphone-min.png",
+      "id"    : 1,
+      "phones" : [
+          {
+            "model"  : "iphone 7",
+            "products" : [
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "black",
+                "counter"     : 101,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "red",
+                "counter"     : 121,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 2
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "white",
+                "counter"     : 91,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "blue",
+                "counter"     : 21,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 4
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "transparent",
+                "counter"     : 201,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 5
+              },
+              {
+                "image"       : "", 
+                "name"        : "5D",
+                "color"       : "black",
+                "counter"     : 1001,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "5D",
+                "color"       : "white",
+                "counter"     : 501,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 2
+              },
+              {
+                "image"       : "", 
+                "name"        : "2D",
+                "color"       : "transparent",
+                "counter"     : 501,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              }
+            ],
+            "image": "",
+            "id": 1
+          },
+          {
+            "model": "iphone 7+",
+            "products" : [
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "black",
+                "counter"     : 101,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "red",
+                "counter"     : 121,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 2
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "white",
+                "counter"     : 91,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "blue",
+                "counter"     : 21,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 4
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "transparent",
+                "counter"     : 201,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 5
+              },
+              {
+                "image"       : "", 
+                "name"        : "5D",
+                "color"       : "black",
+                "counter"     : 1001,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "5D",
+                "color"       : "white",
+                "counter"     : 501,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 2
+              },
+              {
+                "image"       : "", 
+                "name"        : "2D",
+                "color"       : "transparent",
+                "counter"     : 501,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              }
+            ],
+            "image": "",
+            "id": 2
+          },
+          {
+            "model": "iphone 10",
+            "products" : [
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "black",
+                "counter"     : 101,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "red",
+                "counter"     : 121,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 2
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "white",
+                "counter"     : 91,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "blue",
+                "counter"     : 21,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 4
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "transparent",
+                "counter"     : 201,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 5
+              },
+              {
+                "image"       : "", 
+                "name"        : "5D",
+                "color"       : "black",
+                "counter"     : 1001,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "2D",
+                "color"       : "transparent",
+                "counter"     : 501,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              }
+            ],
+            "image": "",
+            "id": 3
+          },
+          {
+            "model": "iphone 11",
+            "products" : [
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "black",
+                "counter"     : 101,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "red",
+                "counter"     : 121,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 2
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "white",
+                "counter"     : 91,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "blue",
+                "counter"     : 21,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 4
+              },
+              {
+                "image"       : "", 
+                "name"        : "Silicon Case",
+                "color"       : "transparent",
+                "counter"     : 201,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 5
+              },
+              {
+                "image"       : "", 
+                "name"        : "5D",
+                "color"       : "black",
+                "counter"     : 1001,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 1
+              },
+              {
+                "image"       : "", 
+                "name"        : "2D",
+                "color"       : "transparent",
+                "counter"     : 501,
+                "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "id"          : 3
+              }
+            ],
+            "image": "",
+            "id": 4
+          }
+        ]
+    },
+    {
+      "model" : "samsung",
+      "image" : "https://www.experienceaudiovideo.com/wp-content/uploads/2016/11/Samsung-logo-2015-Nobg.png",
+      "id"    : 2,
+      "phones" : [
+        {
+          "model"  : "m 21",
+          "products" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            },
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 1
+        },
+        {
+          "model": "s 10",
+          "products" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            },
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "model" : "xiaomi",
+      "image" : "https://logos-world.net/wp-content/uploads/2020/05/Xiaomi-Logo.png",
+      "id"    : 3,
+      "phones" : [
+        {
+          "model"  : "8pro",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 1
+        },
+        {
+          "model": "9pro",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "model" : "huawei",
+      "image" : "https://solutions.centralpoint.nl/wp-content/uploads/2019/04/Huwawei_grijs.png",
+      "id"    : 4,
+      "phones" : [
+        {
+          "model"  : "p30",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 1
+        },
+        {
+          "model": "p40lite",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "model" : "nokia",
+      "image" :"https://energy-comfort.ru/upload/iblock/c49/c490cc694c148887514d73c0f889fb29.png",
+      "id"    : 5,
+      "phones" : [
+        {
+          "model"  : "630",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 1
+        },
+        {
+          "model": "830",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "model" : "lenovo",
+      "image" : "https://www.freepngimg.com/thumb/lenovo_logo/32020-7-lenovo-logo-photos.png",
+      "id"    : 6,
+      "phones" : [
+        {
+          "model"  : "k6",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 1
+        },
+        {
+          "model": "s5",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "model" : "asus",
+      "image" : "https://picase.ru/wp-content/uploads/2019/09/fc63e1994c74a2dde78cb950ce2e4f8f.png",
+      "id"    : 7,
+      "phones" : [
+        {
+          "model"  : "m1",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 1
+        },
+        {
+          "model": "z3",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "model" : "meizu",
+      "image" : "https://brandslogo.net/wp-content/uploads/2017/02/meizu-logo.png",
+      "id"    : 8,
+      "phones" : [
+        {
+          "model"  : "m8",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 1
+        },
+        {
+          "model": "x8",
+          "covers" : [
+            {
+              "image"       : "", 
+              "name"        : "Silicon Case",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "glasses"  : [
+            {
+              "image"       : "", 
+              "name"        : "5D",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            }
+          ],
+          "image": "",
+          "id": 2
+        }
+      ]
+    }
+  ]
+}
