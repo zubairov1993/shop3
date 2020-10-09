@@ -73,7 +73,7 @@
                 "id"          : 3
               }
             ],
-            "image": "",
+            "image": "https://www.icases.ru/upload/iblock/404/404265c45bbb01fc6bba6d1913a85916.jpg",
             "id": 1
           },
           {
@@ -144,7 +144,7 @@
                 "id"          : 3
               }
             ],
-            "image": "",
+            "image": "https://images.ru.prom.st/425712971_w640_h640_smartfon-apple-iphone.jpg",
             "id": 2
           },
           {
@@ -207,7 +207,7 @@
                 "id"          : 3
               }
             ],
-            "image": "",
+            "image": "https://ae01.alicdn.com/kf/HTB1KJU1alLN8KJjSZFpq6zZaVXa9/1Pc-2Pcs-Rear-Camera-Lens-Clear-Tempered-Glass-For-iPhone-XS-MAX-XR-8-7-Plus.jpg",
             "id": 3
           },
           {
@@ -270,7 +270,7 @@
                 "id"          : 3
               }
             ],
-            "image": "",
+            "image": "https://img.mvideo.ru/Pdb/30045425b3.jpg",
             "id": 4
           }
         ]
@@ -335,7 +335,7 @@
       "phones" : [
         {
           "model"  : "8pro",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -343,9 +343,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -360,7 +358,7 @@
         },
         {
           "model": "9pro",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -368,9 +366,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -392,7 +388,7 @@
       "phones" : [
         {
           "model"  : "p30",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -400,9 +396,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -417,7 +411,7 @@
         },
         {
           "model": "p40lite",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -425,9 +419,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -449,7 +441,7 @@
       "phones" : [
         {
           "model"  : "630",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -457,9 +449,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -474,7 +464,7 @@
         },
         {
           "model": "830",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -482,9 +472,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -506,7 +494,7 @@
       "phones" : [
         {
           "model"  : "k6",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -514,9 +502,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -531,7 +517,7 @@
         },
         {
           "model": "s5",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -539,9 +525,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -563,7 +547,7 @@
       "phones" : [
         {
           "model"  : "m1",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -571,9 +555,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -588,7 +570,7 @@
         },
         {
           "model": "z3",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -596,9 +578,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -620,7 +600,7 @@
       "phones" : [
         {
           "model"  : "m8",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -628,9 +608,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",
@@ -645,7 +623,7 @@
         },
         {
           "model": "x8",
-          "covers" : [
+          "products" : [
             {
               "image"       : "", 
               "name"        : "Silicon Case",
@@ -653,9 +631,7 @@
               "counter"     : 101,
               "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
               "id"          : 1
-            }
-          ],
-          "glasses"  : [
+            },
             {
               "image"       : "", 
               "name"        : "5D",

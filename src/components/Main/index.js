@@ -9,7 +9,8 @@ import showHolders from './showHolders/showHolders';
 import showAccumulators from './showAccumulators/showAccumulators';
 import showBags from './showBags/showBags';
 import showOthers from './showOthers/showOthers';
-import PizzaBlock from './pizzaBlock/PizzaBlock';
+import ShowPhone from './showGlassCover/showPhone/ShowPhone';
+import ShowProducts from './showGlassCover/showProducts/ShowProducts';
 export {
   Home,
   ShowGlassCover,
@@ -22,5 +23,6 @@ export {
   showAccumulators,
   showBags,
   showOthers,
-  PizzaBlock
+  ShowPhone,
+  ShowProducts
 }
