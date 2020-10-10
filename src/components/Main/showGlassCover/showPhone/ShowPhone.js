@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom';
   constructor(props) {
     super(props); 
     this.state = {
-      data: this.props.location.state.data,
-      products: ''
+      data: this.props.location.state.data
     }
   }
   
@@ -17,7 +16,7 @@ import { Link } from 'react-router-dom';
     const elem = itemPhones.map(el => {
       return (
         <Link to={{ 
-          pathname: '/productsGlass',
+          pathname: '/prodGlassCover',
           state: { data: el.products }
         }} key={el.id}>
           <img src={el.image}></img>

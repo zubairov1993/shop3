@@ -6,8 +6,8 @@ function NavBar() {
   return (
     <div className='navbar'>
       <ul>
-        <li><Link to='/glass'>Стекла и Чехлы</Link></li>
-        <li><Link to='/braslets'>браслеты и ремешки</Link></li>
+        <li><Link to='/glassCover'>Стекла и Чехлы</Link></li>
+        <li><Link to='/watchesStraps'>браслеты и ремешки</Link></li>
         <li><Link to='/adapter'>Кабеля и переходники</Link></li>
         <li><Link to='/charging'>Зарядные устройства</Link></li>
         <li><Link to='/headphones'>Наушники</Link></li>

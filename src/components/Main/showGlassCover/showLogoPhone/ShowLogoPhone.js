@@ -15,7 +15,7 @@ import './ShowLogoPhone.scss';
     
     return (
       <Link to={{ 
-        pathname: '/phone',
+        pathname: '/phoneModels',
         state: { data: this.state.data }
       }} 
         className='logo-phone' >

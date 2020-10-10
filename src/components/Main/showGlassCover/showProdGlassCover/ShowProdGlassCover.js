@@ -1,5 +1,6 @@
 import React from 'react';
-class ShowProducts extends React.Component {
+
+class ShowProdGlassCover extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,7 +12,7 @@ class ShowProducts extends React.Component {
     const products = this.state.products;
     const elem = products.map(el => {
       return (
-      <p>{el.name}</p>
+      <p key={el.id}>{el.name}</p>
       )
     })
     // console.log(itemPhones);
@@ -23,4 +24,4 @@ class ShowProducts extends React.Component {
   }
 }
 
-export default ShowProducts;
+export default ShowProdGlassCover;

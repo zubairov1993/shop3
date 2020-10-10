@@ -1,0 +1,126 @@
+{
+  "brasletStrap" : [
+    {
+      "model"     : "xiaomi",
+      "image"     : "https://logos-world.net/wp-content/uploads/2020/05/Xiaomi-Logo.png",
+      "id"        : 1,
+      "products"  : [
+        {
+          "model" : "miBand 5",
+          "image" : "https://im0-tub-ru.yandex.net/i?id=9ee304f9056e19ba5fc4feb98892d781&n=13",
+          "descr" : "",
+          "counter" : 3,
+          "straps"    : [
+            {
+              "image"       : "https://im0-tub-ru.yandex.net/i?id=92e5aaef2c2825bd6c5f3004d8d5fda0&n=13", 
+              "name"        : "Silicon",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            },
+            {
+              "image"       : "https://cdn1.ozone.ru/multimedia/1037172644.jpg", 
+              "name"        : "nylon",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 2
+            }
+          ]
+        },
+        {
+          "model" : "miBand 4",
+          "image" : "https://miparts.ru/image/cache/cache/2001-3000/2278/main/774d-Black1-0-1-600x600.png",
+          "descr" : "",
+          "counter" : 2,
+          "straps"    : [
+            {
+              "image"       : "https://cdn1.ozone.ru/multimedia/1037172644.jpg", 
+              "name"        : "Silicon",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            },
+            {
+              "image"       : "https://im0-tub-ru.yandex.net/i?id=92e5aaef2c2825bd6c5f3004d8d5fda0&n=13", 
+              "name"        : "nylon",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "model"     : "apple",
+      "image"     : "https://i.exclipart.com/images/apple-watch-logo-png.png",
+      "id"        : 2,
+      "products"  : [
+        {
+          "model" :"watch 38-40",
+          "image" : "https://cdn1.ozone.ru/s3/multimedia-1/6013354093.jpg",
+          "straps"    : [
+            {
+              "image"       : "https://watchaware.com/wp-content/uploads/2017/06/watch-os-new-bands-one.png", 
+              "name"        : "Silicon",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            },
+            {
+              "image"       : "https://kremlinstore.ru/wa-data/public/shop/products/65/12/11265/images/41117/41117.970.png", 
+              "name"        : "nylon",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 2
+            },
+            {
+              "image"       : "https://s.yimg.com/uu/api/res/1.2/1ZDepybp5aYlNYaQyd4mNw--~B/aD03MDA7dz05MzM7c209MTthcHBpZD15dGFjaHlvbg--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_SILICONALLEY_H_LIVE/Apples_Watch_just_beat_Rolex-57c923ff77b594e758c996bcefb37f49", 
+              "name"        : "metalic",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 3
+            }
+          ]
+        },
+        {
+          "model" :" watch 42-44",
+          "image" : "https://carcam.ru/upload/iblock/451/Sport_band_ZN_zhyeltyy2.png",
+          "straps"    : [
+            {
+              "image"       : "https://angrystore.ru/assets/components/phpthumbof/cache/2307.e60a3d2fc5c1eb82ebf1277f07fff0791647.png", 
+              "name"        : "Silicon",
+              "color"       : "black",
+              "counter"     : 101,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 1
+            },
+            {
+              "image"       : "https://macincase.com.ua/content/images/19/remeshok-str-sport-loop-band-for-apple-watch-42-44-mm-productred5318-56451871100699.png", 
+              "name"        : "nylon",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 2
+            },
+            {
+              "image"       : "https://im0-tub-ru.yandex.net/i?id=b695b1ea7f8eaaf3728db5e4acf5e9ee&n=13", 
+              "name"        : "metalic",
+              "color"       : "black",
+              "counter"     : 1001,
+              "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+              "id"          : 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
