@@ -10,9 +10,11 @@ import {
   ShowPhone, 
   ShowProdGlassCover, 
 
-  ShowWatchesStraps, 
+  ShowBrasletsStraps, 
+  ShowLogoStraps,
   ShowStraps,
-  ShowProdBrasletsWatches,
+  ShowBraslets,
+  ShowProdBrasletsStraps,
 
   showPowerBank, 
   showAdapterCable, 
@@ -40,10 +42,10 @@ React.useEffect(() => {
 const [braslets, setBraslets] = React.useState([]);
 
 React.useEffect(() => {
-  fetch('http://localhost:3000/dbBraslets.json')
+  fetch('http://localhost:3000/dbBrasletsStraps.json')
     .then((resp) => resp.json())
     .then((json) => {
-      setBraslets(json.brasletStrap);
+      setBraslets(json.brasletsStraps);
   });
 }, []);
 
@@ -58,9 +60,11 @@ React.useEffect(() => {
               <Route path='/phoneModels' component={ShowPhone} />
                 <Route path='/prodGlassCover' component={ShowProdGlassCover} />
 
-            <Route path='/watchesStraps' render={() => <ShowWatchesStraps items={braslets}/>} />
-              <Route path='/starps' component={ShowStraps}/>
-                <Route path='/prodWatchesStraps' component={ShowProdBrasletsWatches}/>
+            <Route path='/brasletsStraps' render={() => <ShowBrasletsStraps items={braslets}/>} />
+              <Route path='/straps' component={ShowLogoStraps}/>
+                <Route path='/strapsModel' component={ShowStraps}/>
+              <Route path='/braslets' component={ShowBraslets}/>
+                <Route path='/prodBrasletsStraps' component={ShowProdBrasletsStraps}/>
 
             <Route path='/adapter' component={showAdapterCable} />
             <Route path='/charging' component={showChargingDevice} />

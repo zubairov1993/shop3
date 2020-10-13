@@ -1,25 +1,23 @@
 import React from 'react';
-import './ShowStraps.scss';
+import './ShowLogoStraps.scss';
 import { Link } from 'react-router-dom';
 
- class ShowWatchesStraps extends React.Component {
+ class ShowLogoStraps extends React.Component {
   constructor(props) {
-    super(props); 
+    super(props);
     this.state = {
       data: this.props.location.state.data
     }
-    // console.log(this.state.data);
   }
   
   render() {
     const data = this.state.data;
     const item = data.products;
     const elem = item.map(el => {
-      console.log(el);
       return (
         <Link to={{ 
-          pathname: '/prodWatchesStraps',
-          state: { data: el.straps }
+          pathname: '/strapsModel',
+          state: { data: el.products }
         }} key={el.model}>
           <div className='logo-braslets'>
             <img src={el.image} alt={el.model}/>
@@ -37,4 +35,4 @@ import { Link } from 'react-router-dom';
 }
 
 
-export default ShowWatchesStraps;
+export default ShowLogoStraps;

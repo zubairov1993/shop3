@@ -5,9 +5,11 @@ import ShowGlassCover from './showGlassCover/ShowGlassCover';
 import ShowPhone from './showGlassCover/showPhone/ShowPhone';
 import ShowProdGlassCover from './showGlassCover/showProdGlassCover/ShowProdGlassCover';
 
-import ShowWatchesStraps from './showWatchesStraps/ShowWatchesStraps';
-import ShowStraps from './showWatchesStraps/showStraps/ShowStraps';
-import ShowProdBrasletsWatches from './showWatchesStraps/showProdBrasletsWatches/ShowProdBrasletsWatches';
+import ShowBrasletsStraps from './showBrasletsStraps/ShowBrasletsStraps';
+import ShowLogoStraps from './showBrasletsStraps/showLogoStraps/ShowLogoStraps';
+import ShowStraps from './showBrasletsStraps/showStraps/ShowStraps';
+import ShowBraslets from './showBrasletsStraps/showBraslets/ShowBraslets';
+import ShowProdBrasletsStraps from './showBrasletsStraps/showProdBrasletsStraps/ShowProdBrasletsStraps';
 
 import showPowerBank from './showPowerBank/showPowerBank';
 import showAdapterCable from './showAdapterCable/showAdapterCable';
@@ -26,9 +28,11 @@ export {
   ShowPhone,
   ShowProdGlassCover,
 
-  ShowWatchesStraps,
+  ShowBrasletsStraps,
+  ShowBraslets,
+  ShowLogoStraps,
   ShowStraps,
-  ShowProdBrasletsWatches,
+  ShowProdBrasletsStraps,
 
   showPowerBank,
   showAdapterCable,

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './ShowLogoWatchesStraps.scss'
+import './ShowBrasletsOrStraps.scss'
 import { Link } from 'react-router-dom';
 
-class ShowLogoBraslets extends Component {
+class ShowBrasletOrStraps extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -13,7 +13,7 @@ class ShowLogoBraslets extends Component {
   render() {
     return (
       <Link to={{ 
-        pathname: '/starps',
+        pathname: `/${this.state.data.name}`,
         state: { data: this.state.data }
       }}
       key={this.state.data.id}
@@ -27,4 +27,4 @@ class ShowLogoBraslets extends Component {
     );
   }
 }
-export default ShowLogoBraslets;
+export default ShowBrasletOrStraps;
