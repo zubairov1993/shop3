@@ -1,15 +1,24 @@
 import React from 'react'
+
 import './SideBar.scss'
 
 import DB from '../../../assets/dataBase.json'
+import { Link } from 'react-router-dom'
 
 function SideBar() {
   return (
     <div className='sidebar'>
       <ul>
-        {
-          Object.keys(DB.dataBase).map(item => console.log(item))
-        }
+        <li><Link to='/admin/addBrand'>Стекла и Чехлы</Link></li>
+        <li><Link to='/admin/addBrasletsStraps'>браслеты и ремешки</Link></li>
+        <li><Link to='/admin/addAdapter'>Кабеля и переходники</Link></li>
+        <li><Link to='/admin/addCharging'>Зарядные устройства</Link></li>
+        <li><Link to='/admin/addHeadphones'>Наушники</Link></li>
+        <li><Link to='/admin/addPowerbank'>PowerBank</Link></li>
+        <li><Link to='/admin/addHolders'>Держатели</Link></li>
+        <li><Link to='/admin/addAccum'>Аккумуляторы</Link></li>
+        <li><Link to='/admin/addBags'>Сумки</Link></li>
+        <li><Link to='/admin/addOthers'>Прочее</Link></li>
       </ul>
     </div>
   )
