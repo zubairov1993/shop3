@@ -8,7 +8,7 @@ function SideBar() {
     <div className='sidebar'>
       <ul>
         {
-          DB.dataBase.values(item => console.log(item))
+          Object.keys(DB.dataBase).map(item => console.log(item))
         }
       </ul>
     </div>
