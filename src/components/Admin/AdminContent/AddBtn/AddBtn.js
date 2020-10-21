@@ -1,9 +1,12 @@
 import React from 'react'
+import axios from 'axios'
+
 import './AddBtn.scss'
 
 function AddBtn({onAddList}) {
   const [inputValue, setInputValue] = React.useState('');
   const [inputImage, setInputImage] = React.useState('');
+  const [isLoading, setIsLoading] = React.useState(false);
   const [visiblePopup, setVisiblePopup] = React.useState(false);
 
   const onClose = () => {
@@ -21,8 +24,13 @@ function AddBtn({onAddList}) {
       alert('Вставте Url картинки');
       return;
     }
-    onAddList({"model": inputValue, "image": inputImage});
-    onClose();
+    setIsLoading(true)
+    axios.post('http://localhost:3001/glassCover', {"model": inputValue, "image": inputImage}).then(({data}) => {
+      onAddList(data);
+      onClose();
+    }).finally(() => {
+      setIsLoading(false);
+    })
   }
 
   return (
@@ -45,7 +53,7 @@ function AddBtn({onAddList}) {
           className="field" 
           type="text" 
           placeholder="Url image"/>
-        <button onClick={addList} className="button">Add Folder</button>
+        <button onClick={addList} className="button">{isLoading ? 'Add...' : 'Add Folder'}</button>
       </div>}
     </div>
   )

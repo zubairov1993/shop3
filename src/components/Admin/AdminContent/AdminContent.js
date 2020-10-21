@@ -10,7 +10,7 @@ function AdminContent() {
   return (
     <div className='content'>
       <Switch>
-        <Route path='/admin/addBrand' exact component={AddBrand} />
+        <Route path='/admin/addBrand' exact component={AddBrand}/>
           <Route path='/admin/addModel' exact component={AddModel} />
             <Route path='/admin/addProducts' exact component={AddProducts} />
 
