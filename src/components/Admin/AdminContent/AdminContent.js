@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router'
 import './AdminContent.scss'
 import AddBrand from './Links/AddBrand/AddBrand'
 import AddModel from './Links/AddBrand/AddModel/AddModel'
+import AddProducts from './Links/AddBrand/AddProducts/AddProducts'
 
 function AdminContent() {
   
@@ -11,6 +12,8 @@ function AdminContent() {
       <Switch>
         <Route path='/admin/addBrand' exact component={AddBrand} />
           <Route path='/admin/addModel' exact component={AddModel} />
+            <Route path='/admin/addProducts' exact component={AddProducts} />
+
         {/* <Route path='/admin/addBrasletsStraps' component={}/>
         <Route path='/admin/addAdapter' component={}/>
         <Route path='/admin/addCharging' component={}/>

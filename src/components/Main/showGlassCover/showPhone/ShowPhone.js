@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
     this.state = {
       data: this.props.location.state.data
     }
+    console.log(this.state.data);
   }
   
   render() {

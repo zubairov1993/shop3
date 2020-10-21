@@ -21,7 +21,7 @@ function AddBrand() {
             return (
               <Link to={{ 
                 pathname: '/admin/addModel',
-                state: item
+                state: {data: item}
               }} 
               className='model-phone__block' key={index}>
                 <img src={item.image} alt={item.model}/>

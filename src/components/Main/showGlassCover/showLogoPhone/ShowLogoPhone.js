@@ -8,7 +8,7 @@ import './ShowLogoPhone.scss';
     this.state = {
       data: this.props
     }
-
+    console.log(this.state.data);
   }
 
   render() {

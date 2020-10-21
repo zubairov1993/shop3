@@ -42,7 +42,7 @@ function AddBtn({onAddList}) {
         <input 
           value={inputImage}
           onChange={e => setInputImage(e.target.value)} 
-          // className="field" 
+          className="field" 
           type="text" 
           placeholder="Url image"/>
         <button onClick={addList} className="button">Add Folder</button>

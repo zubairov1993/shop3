@@ -1,12 +1,33 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-function AddModel(props) {
-  console.log(props);
-  return (
-    <div>
-      <h1>wawwddsaw</h1>
-    </div>
-  )
+class AddModel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: this.props.location.state.data
+    }
+  } 
+  render() {
+    const data = this.state.data;
+    const itemPhones = data.phones;
+    const elem = itemPhones.map(el => {
+      return (
+        <Link to={{ 
+          pathname: '/admin/addProducts',
+          state: { data: el.products }
+        }} key={el.id}>
+          <img src={el.image}></img>
+        </Link>
+      )
+    })
+    return (
+      <div className='phone'>
+        {elem}
+      </div>
+    )
+  }
+  
 }
 
 export default AddModel
