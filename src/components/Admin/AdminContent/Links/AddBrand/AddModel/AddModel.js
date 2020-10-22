@@ -1,4 +1,6 @@
 import React from 'react'
+
+import './AddModel.scss'
 import { Link } from 'react-router-dom';
 
 class AddModel extends React.Component {
@@ -16,8 +18,10 @@ class AddModel extends React.Component {
         <Link to={{ 
           pathname: '/admin/addProducts',
           state: { data: el.products }
-        }} key={el.id}>
-          <img src={el.image}></img>
+        }} key={el.id}
+        className='phone__item'
+        >
+          <p>{el.model}</p>
         </Link>
       )
     })

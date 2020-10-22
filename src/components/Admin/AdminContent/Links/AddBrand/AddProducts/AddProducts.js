@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './AddProducts.scss'
+
 class AddProducts extends Component {
   constructor(props) {
     super(props);
@@ -10,13 +12,20 @@ class AddProducts extends Component {
 
   render() {
     const products = this.state.products;
+    console.log(products);
     const elem = products.map(el => {
       return (
-      <p key={el.id}>{el.name}</p>
+        <div key={el.id} className='products__item'>
+          <p>{el.name}</p>
+          <p>{el.color}</p>
+          <p>{el.counter}</p>
+          <p>{el.description}</p>
+
+        </div>
       )
     })
     return (
-      <div>
+      <div className='products'>
         {elem}
       </div>
     )

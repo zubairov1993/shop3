@@ -22,6 +22,7 @@ function AddBrand() {
       obj
     ];
     setLists(newList);
+    console.log(lists);
   }
 
   return (
@@ -35,9 +36,9 @@ function AddBrand() {
                   pathname: '/admin/addModel',
                   state: {data: item}
                 }} 
-                  className='model-phone__block' key={index}
+                  className='model-phone__item' key={index}
                   >
-                  <img src={item.image} alt={item.model}/>
+                  <p>{item.model}</p>
                 </Link>
               )
             })

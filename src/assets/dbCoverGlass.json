@@ -647,14 +647,29 @@
       ]
     },
     {
-      "model": "awd",
-      "image": "https://elisys.ru/image/catalog/sony.png",
+      "model": "awds",
+      "image": "",
       "id": 9
     },
     {
-      "model": "wdsa",
-      "image": "https://elisys.ru/image/catalog/sony.png",
+      "model": "wsw",
+      "image": "",
       "id": 10
+    },
+    {
+      "model": "wads",
+      "image": "",
+      "id": 11
+    },
+    {
+      "model": "111www",
+      "image": "",
+      "id": 12
+    },
+    {
+      "model": "22222",
+      "image": "",
+      "id": 13
     }
   ]
 }
