@@ -7,7 +7,6 @@ import AddBtn from '../../AddBtn/AddBtn'
 
 
 function AddBrand() {
-  
   const [lists, setLists] = React.useState(null)
 
   React.useEffect(() => {
@@ -22,7 +21,6 @@ function AddBrand() {
       obj
     ];
     setLists(newList);
-    console.log(lists);
   }
 
   return (

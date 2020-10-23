@@ -645,31 +645,6 @@
           "id": 2
         }
       ]
-    },
-    {
-      "model": "awds",
-      "image": "",
-      "id": 9
-    },
-    {
-      "model": "wsw",
-      "image": "",
-      "id": 10
-    },
-    {
-      "model": "wads",
-      "image": "",
-      "id": 11
-    },
-    {
-      "model": "111www",
-      "image": "",
-      "id": 12
-    },
-    {
-      "model": "22222",
-      "image": "",
-      "id": 13
     }
   ]
 }

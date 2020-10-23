@@ -2,6 +2,7 @@ import React from 'react'
 
 import './AddModel.scss'
 import { Link } from 'react-router-dom';
+import AddBtnModel from './AddBtnModel/AddBtnModel';
 
 class AddModel extends React.Component {
   constructor(props) {
@@ -9,16 +10,25 @@ class AddModel extends React.Component {
     this.state = {
       data: this.props.location.state.data
     }
+    // console.log(this.state.data);
   } 
+  
+  onAddModel = (obj) => {
+    const newList = [
+      this.state.data.push(obj)
+    ]
+    this.setState({newList})
+  }
+  
   render() {
-    const data = this.state.data;
-    const itemPhones = data.phones;
-    const elem = itemPhones.map(el => {
+
+    const elem = this.state.data.phones.map((el, index) => {
+      console.log(el);
       return (
         <Link to={{ 
           pathname: '/admin/addProducts',
           state: { data: el.products }
-        }} key={el.id}
+        }} key={index}
         className='phone__item'
         >
           <p>{el.model}</p>
@@ -28,6 +38,7 @@ class AddModel extends React.Component {
     return (
       <div className='phone'>
         {elem}
+        <AddBtnModel onAddModel={this.onAddModel}/>
       </div>
     )
   }
