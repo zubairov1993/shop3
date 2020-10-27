@@ -18,21 +18,6 @@ function AddBtnModel({onAddModel}) {
     onAddModel({"model": inputValue, "image": inputImage, "products": []});
     onClose();
   }
-  // const addList = () => {
-  //   if(!inputValue) {
-  //     alert('ВВедите название списка');
-  //     return;
-  //   }
-  //   // if(!inputImage) {
-  //   //   alert('Вставте Url картинки');
-  //   //   return;
-  //   // }
-  //   onAddList({"model": inputValue, "image": inputImage});
-  //   onClose();
-  //   axios.post('http://localhost:3001/glassCover', {"model": inputValue, "image": inputImage}).then(({data}) => {
-      
-  //   })
-  // }
 
   return (
     <div className='add-model'>

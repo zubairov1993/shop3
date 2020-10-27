@@ -10,12 +10,12 @@ class AddModel extends React.Component {
     this.state = {
       data: this.props.location.state.data
     }
-    // console.log(this.state.data);
+    console.log(this.state.data);
   } 
   
   onAddModel = (obj) => {
     const newList = [
-      this.state.data.push(obj)
+      this.state.data.phones.push(obj)
     ]
     this.setState({newList})
   }
@@ -23,7 +23,6 @@ class AddModel extends React.Component {
   render() {
 
     const elem = this.state.data.phones.map((el, index) => {
-      console.log(el);
       return (
         <Link to={{ 
           pathname: '/admin/addProducts',
