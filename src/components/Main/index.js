@@ -1,46 +1,46 @@
 import NavBar from './Nav/NavBar';
 import Home from './Home/Home';
 
-import ShowGlassCover from './showGlassCover/ShowGlassCover';
-import ShowPhone from './showGlassCover/showPhone/ShowPhone';
-import ShowProdGlassCover from './showGlassCover/showProdGlassCover/ShowProdGlassCover';
+import GlassCover from './GlassCover/GlassCover';
+import Phone from './GlassCover/Phone/Phone';
+import ProdGlassCover from './GlassCover/ProdGlassCover/ProdGlassCover';
 
-import ShowBrasletsStraps from './showBrasletsStraps/ShowBrasletsStraps';
-import ShowLogoStraps from './showBrasletsStraps/showLogoStraps/ShowLogoStraps';
-import ShowStraps from './showBrasletsStraps/showStraps/ShowStraps';
-import ShowBraslets from './showBrasletsStraps/showBraslets/ShowBraslets';
-import ShowProdBrasletsStraps from './showBrasletsStraps/showProdBrasletsStraps/ShowProdBrasletsStraps';
+import BrasletsStraps from './BrasletsStraps/BrasletsStraps';
+import LogoStraps from './BrasletsStraps/LogoStraps/LogoStraps';
+import Straps from './BrasletsStraps/Straps/Straps';
+import Braslets from './BrasletsStraps/Braslets/Braslets';
+import ProdBrasletsStraps from './BrasletsStraps/ProdBrasletsStraps/ProdBrasletsStraps';
 
-import showPowerBank from './showPowerBank/showPowerBank';
-import showAdapterCable from './showAdapterCable/showAdapterCable';
-import showChargingDevice from './showChargingDevice/showChargingDevice';
-import showHeadphones from './showHeadphones/showHeadphones';
-import showHolders from './showHolders/showHolders';
-import showAccumulators from './showAccumulators/showAccumulators';
-import showBags from './showBags/showBags';
-import showOthers from './showOthers/showOthers';
+import PowerBank from './PowerBank/PowerBank';
+import AdapterCable from './AdapterCable/AdapterCable';
+import ChargingDevice from './ChargingDevice/ChargingDevice';
+import Headphones from './Headphones/Headphones';
+import Holders from './Holders/Holders';
+import Accumulators from './Accumulators/Accumulators';
+import Bags from './Bags/Bags';
+import Others from './Others/Others';
 
 export {
   NavBar,
   Home,
   
-  ShowGlassCover,
-  ShowPhone,
-  ShowProdGlassCover,
+  GlassCover,
+  Phone,
+  ProdGlassCover,
 
-  ShowBrasletsStraps,
-  ShowBraslets,
-  ShowLogoStraps,
-  ShowStraps,
-  ShowProdBrasletsStraps,
+  BrasletsStraps,
+  Braslets,
+  LogoStraps,
+  Straps,
+  ProdBrasletsStraps,
 
-  showPowerBank,
-  showAdapterCable,
-  showChargingDevice,
-  showHeadphones,
-  showHolders,
-  showAccumulators,
-  showBags,
-  showOthers
+  PowerBank,
+  AdapterCable,
+  ChargingDevice,
+  Headphones,
+  Holders,
+  Accumulators,
+  Bags,
+  Others
   
 }

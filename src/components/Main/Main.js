@@ -6,24 +6,24 @@ import {
   NavBar, 
   Home, 
 
-  ShowGlassCover,
-  ShowPhone, 
-  ShowProdGlassCover, 
+  GlassCover,
+  Phone, 
+  ProdGlassCover, 
 
-  ShowBrasletsStraps, 
-  ShowLogoStraps,
-  ShowStraps,
-  ShowBraslets,
-  ShowProdBrasletsStraps,
+  BrasletsStraps, 
+  LogoStraps,
+  Straps,
+  Braslets,
+  ProdBrasletsStraps,
 
-  showPowerBank, 
-  showAdapterCable, 
-  showChargingDevice, 
-  showHeadphones, 
-  showHolders, 
-  showAccumulators, 
-  showBags, 
-  showOthers, 
+  PowerBank, 
+  AdapterCable, 
+  ChargingDevice, 
+  Headphones, 
+  Holders, 
+  Accumulators, 
+  Bags, 
+  Others, 
    } from './';
 
 
@@ -56,24 +56,24 @@ React.useEffect(() => {
           <Switch>
             <Route path='/' exact component={Home} />
 
-            <Route path='/glassCover' render={() => <ShowGlassCover items={phones}/>} />
-              <Route path='/phoneModels' component={ShowPhone} />
-                <Route path='/prodGlassCover' component={ShowProdGlassCover} />
+            <Route path='/glassCover' render={() => <GlassCover items={phones}/>} />
+              <Route path='/phoneModels' component={Phone} />
+                <Route path='/prodGlassCover' component={ProdGlassCover} />
 
-            <Route path='/brasletsStraps' render={() => <ShowBrasletsStraps items={braslets}/>} />
-              <Route path='/straps' component={ShowLogoStraps}/>
-                <Route path='/strapsModel' component={ShowStraps}/>
-              <Route path='/braslets' component={ShowBraslets}/>
-                <Route path='/prodBrasletsStraps' component={ShowProdBrasletsStraps}/>
+            <Route path='/brasletsStraps' render={() => <BrasletsStraps items={braslets}/>} />
+              <Route path='/straps' component={LogoStraps}/>
+                <Route path='/strapsModel' component={Straps}/>
+              <Route path='/braslets' component={Braslets}/>
+                <Route path='/prodBrasletsStraps' component={ProdBrasletsStraps}/>
 
-            <Route path='/adapter' component={showAdapterCable} />
-            <Route path='/charging' component={showChargingDevice} />
-            <Route path='/headphones' component={showHeadphones} />
-            <Route path='/powerbank' component={showPowerBank} />
-            <Route path='/holders' component={showHolders} />
-            <Route path='/accum' component={showAccumulators} />
-            <Route path='/bags' component={showBags} />
-            <Route path='/others' component={showOthers} />
+            <Route path='/adapter' component={AdapterCable} />
+            <Route path='/charging' component={ChargingDevice} />
+            <Route path='/headphones' component={Headphones} />
+            <Route path='/powerbank' component={PowerBank} />
+            <Route path='/holders' component={Holders} />
+            <Route path='/accum' component={Accumulators} />
+            <Route path='/bags' component={Bags} />
+            <Route path='/others' component={Others} />
           </Switch>
         </div>
     </div>
