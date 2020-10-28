@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "fake-json": "json-server ./src/assets/dbCoverGlass.json --watch --port 3001"
+    "fake-json": "json-server ./src/assets/dbCoverGlass.json --watch --port 3001",
+    "fake-json2": "json-server ./src/assets/fake.json --watch --port 3002"
   },
   "eslintConfig": {
     "extends": "react-app"

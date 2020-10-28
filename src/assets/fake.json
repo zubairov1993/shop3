@@ -1,0 +1,239 @@
+{
+  "brand": [
+    {
+      "model": "iphone",
+      "image": "http://www.savassicelular.com.br/wp-content/uploads/2017/10/iphone-min.png",
+      "id": 1
+    },
+    {
+      "model": "lenovo",
+      "image": "https://www.freepngimg.com/thumb/lenovo_logo/32020-7-lenovo-logo-photos.png",
+      "id": 2
+    },
+    {
+      "model": "xiaomi",
+      "image": "https://remont-televizorov.ru/images/firmi/Xiaomi-Logo.png",
+      "id": 3
+    },
+    {
+      "model": "samsung",
+      "image": "https://www.experienceaudiovideo.com/wp-content/uploads/2016/11/Samsung-logo-2015-Nobg.png",
+      "id": 4
+    },
+    {
+      "model": "huawei",
+      "image": "https://solutions.centralpoint.nl/wp-content/uploads/2019/04/Huwawei_grijs.png",
+      "id": 5
+    },
+    {
+      "model": "nokia",
+      "image": "https://energy-comfort.ru/upload/iblock/c49/c490cc694c148887514d73c0f889fb29.png",
+      "id": 6
+    },
+    {
+      "model": "asus",
+      "image": "https://picase.ru/wp-content/uploads/2019/09/fc63e1994c74a2dde78cb950ce2e4f8f.png",
+      "id": 7
+    },
+    {
+      "model": "meizu",
+      "image": "https://brandslogo.net/wp-content/uploads/2017/02/meizu-logo.png",
+      "id": 8
+    },
+    {
+      "model": "sony",
+      "image": "https://tpcam.ru/img/tpcam_ru/16656_sony_logo_eps_png_sony_logo_png_1269.png",
+      "id": 9
+    }
+  ],
+  "model": [
+    {
+      "brandName": "iphone",
+      "model": "iphone 7",
+      "image": "https://www.icases.ru/upload/iblock/404/404265c45bbb01fc6bba6d1913a85916.jpg",
+      "id": 1
+    },
+    {
+      "brandName": "iphone",
+      "model": "iphone 7+",
+      "image": "https://images.ru.prom.st/425712971_w640_h640_smartfon-apple-iphone.jpg",
+      "id": 2
+    },
+    {
+      "brandName": "lenovo",
+      "model": "k6",
+      "image": "https://im0-tub-ru.yandex.net/i?id=927f51e24cc75a019792606f49da4724&n=13",
+      "id": 3
+    },
+    {
+      "brandName": "lenovo",
+      "model": "s5",
+      "image": "https://novamobila.com/image/cache/data-lenovo-lenovo-k5-pro-lenovo-k5-pro-300x300.jpg",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "black",
+      "counter": 101,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 1
+    },
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "red",
+      "counter": 121,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 2
+    },
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "white",
+      "counter": 91,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 3
+    },
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "blue",
+      "counter": 21,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 4
+    },
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "transparent",
+      "counter": 201,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 5
+    },
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "5D",
+      "color": "black",
+      "counter": 1001,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 6
+    },
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "5D",
+      "color": "white",
+      "counter": 501,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 7
+    },
+    {
+      "modelName": "iphone 7",
+      "image": "",
+      "name": "2D",
+      "color": "transparent",
+      "counter": 501,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 8
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "black",
+      "counter": 101,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 9
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "red",
+      "counter": 121,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 10
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "white",
+      "counter": 91,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 11
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "blue",
+      "counter": 21,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 12
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "transparent",
+      "counter": 201,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 13
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "5D",
+      "color": "black",
+      "counter": 1001,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 14
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "5D",
+      "color": "white",
+      "counter": 501,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 15
+    },
+    {
+      "modelName": "iphone 7+",
+      "image": "",
+      "name": "2D",
+      "color": "transparent",
+      "counter": 501,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 16
+    },
+    {
+      "modelName": "k6",
+      "image": "",
+      "name": "Silicon Case",
+      "color": "black",
+      "counter": 101,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 17
+    },
+    {
+      "modelName": "s5",
+      "image": "",
+      "name": "5D",
+      "color": "black",
+      "counter": 1001,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "id": 17
+    }
+  ]
+}

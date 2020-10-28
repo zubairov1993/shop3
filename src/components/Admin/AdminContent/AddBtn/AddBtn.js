@@ -16,17 +16,18 @@ function AddBtn({onAddList}) {
   }
 
   const addList = () => {
-    if(!inputValue) {
-      alert('ВВедите название списка');
-      return;
-    }
-    if(!inputImage) {
-      alert('Вставте Url картинки');
-      return;
-    }
+    // if(!inputValue) {
+    //   alert('ВВедите название списка');
+    //   return;
+    // }
+    // if(!inputImage) {
+    //   alert('Вставте Url картинки');
+    //   return;
+    // }
     setIsLoading(true)
     axios.post('http://localhost:3001/glassCover', {"model": inputValue, "image": inputImage}).then(({data}) => {
       onAddList(data);
+      console.log(data)
       onClose();
     }).finally(() => {
       setIsLoading(false);

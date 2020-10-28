@@ -1,5 +1,8 @@
 import React from 'react'
 import './Main.scss'
+import axios from 'axios'
+
+import FakeGlassCover from './GlassCover/FakeGlassCover'
 
 import {Route, Switch} from 'react-router-dom';
 import { 
@@ -25,19 +28,21 @@ import {
   Bags, 
   Others, 
    } from './';
+import FakePhone from './GlassCover/Phone/FakePhone';
+import FakeProdGlassCover from './GlassCover/ProdGlassCover/FakeProdGlassCover';
 
 
 function Main() {
 
-const [phones, setPhones] = React.useState([]);
 
-React.useEffect(() => {
-  fetch('http://localhost:3000/dbCoverGlass.json')
-    .then((resp) => resp.json())
-    .then((json) => {
-      setPhones(json.glassCover);
-  });
-}, []);
+
+// React.useEffect(() => {
+//   fetch('http://localhost:3000/dbCoverGlass.json')
+//     .then((resp) => resp.json())
+//     .then((json) => {
+//       setPhones(json.glassCover);
+//   });
+// }, []);
 
 const [braslets, setBraslets] = React.useState([]);
 
@@ -56,9 +61,12 @@ React.useEffect(() => {
           <Switch>
             <Route path='/' exact component={Home} />
 
-            <Route path='/glassCover' render={() => <GlassCover items={phones}/>} />
-              <Route path='/phoneModels' component={Phone} />
-                <Route path='/prodGlassCover' component={ProdGlassCover} />
+            <Route path='/glassCover' component={FakeGlassCover} />
+            {/* <Route path='/glassCover' render={() => <GlassCover items={phones}/>} /> */}
+              <Route path='/phoneModels' component={FakePhone} />
+              {/* <Route path='/phoneModels' component={Phone} /> */}
+                <Route path='/prodGlassCover' component={FakeProdGlassCover} />
+                {/* <Route path='/prodGlassCover' component={ProdGlassCover} /> */}
 
             <Route path='/brasletsStraps' render={() => <BrasletsStraps items={braslets}/>} />
               <Route path='/straps' component={LogoStraps}/>

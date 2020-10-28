@@ -10,8 +10,9 @@ function AddBrand() {
   const [lists, setLists] = React.useState(null)
 
   React.useEffect(() => {
-    axios.get('http://localhost:3001/glassCover').then(({data}) => {
-      setLists(data)
+    axios.get('http://localhost:3001/glassCover')
+      .then(({data}) => {
+        setLists(data)
     })
   }, []);
 
