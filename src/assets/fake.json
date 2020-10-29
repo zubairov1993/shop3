@@ -75,11 +75,11 @@
   "products": [
     {
       "modelName": "iphone 7",
-      "image": "",
-      "name": "Silicon Case",
-      "color": "black",
-      "counter": 101,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "image": "''",
+      "name": "Silicon Case1",
+      "color": "blue",
+      "counter": "2",
+      "description": "www",
       "id": 1
     },
     {
