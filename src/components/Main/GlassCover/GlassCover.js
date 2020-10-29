@@ -1,12 +1,33 @@
 import React from 'react';
-import './GlassCover.scss';
-import LogoPhone from './LogoPhone/LogoPhone';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
-function GlassCover({ items }) {
+
+import './GlassCover.scss';
+
+function GlassCover() {
+
+  const [phones, setPhones] = React.useState([]);
+
+  React.useEffect(() => {
+    axios.get('http://localhost:3002/brand')
+        .then(({data}) => {
+          setPhones(data)
+      })
+  }, []);
+
   return (
-    <div className='glass'>
+    <div className='glass-cover'>
         {
-          items.map(obj => <LogoPhone key={obj.id} {...obj}/>)
+          phones.map((obj, index) => (
+            <Link 
+              to={{ pathname: '/phoneModels', state: { data: obj }}} 
+              className='glass-cover__logo' 
+              key={index}
+            >
+              <img src={obj.image} alt={obj.model}/>
+            </Link>
+          ))
         }
     </div>
   )

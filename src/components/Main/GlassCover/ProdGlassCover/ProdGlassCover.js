@@ -1,26 +1,38 @@
 import React from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
-class ProdGlassCover extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      products: this.props.location.state.data
-    }
-  }
 
-  render() {
-    const products = this.state.products;
-    const elem = products.map(el => {
-      return (
-      <p key={el.id}>{el.name}</p>
+ function ProdGlassCover(props) {
+  const modelName = props.location.state.data.model;
+
+  const [products, setProducts] = React.useState([]);
+
+  React.useEffect(() => {
+    axios.get('http://localhost:3002/products')
+        .then(({data}) => {
+          const result = data.filter(item => item.modelName == modelName)
+          setProducts(result)
+      })
+  }, []);
+
+  return (
+    <div>
+      {products ? (
+        <div>
+          {
+            products.map((item, index) => (
+              <p key={index}>{item.name}</p>
+            ))
+          }
+        </div>
+      ) : (
+        'Loading...'
       )
-    })
-    return (
-      <div>
-        {elem}
-      </div>
-    )
-  }
+    }
+    </div>
+  )
 }
+
 
 export default ProdGlassCover;

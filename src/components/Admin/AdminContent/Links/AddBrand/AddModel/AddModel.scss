@@ -1,12 +1,22 @@
 .phone{
 
-  &__item{
-    border: 1px solid #000;
+  &__block{
+    position: relative;
     padding: 20px;
     border-radius: 4px;
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
     background: #000;
+    margin: 20px;
+
+    &-item{
+      list-style: none;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    &-close{
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
   }
 }

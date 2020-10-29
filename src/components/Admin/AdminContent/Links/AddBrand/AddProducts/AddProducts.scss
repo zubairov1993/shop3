@@ -11,5 +11,13 @@
     border-radius: 4px;
     color: #fff;
     background: #000;
+    position: relative;
+
+    &-close{
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
   }
+  
 }

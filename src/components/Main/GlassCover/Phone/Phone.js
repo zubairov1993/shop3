@@ -1,36 +1,43 @@
 import React from 'react';
-import './Phone.scss';
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 
- class Phone extends React.Component {
-  constructor(props) {
-    super(props); 
-    this.state = {
-      data: this.props.location.state.data
-    }
-    console.log(this.state.data);
-  }
-  
-  render() {
-    const data = this.state.data;
-    const itemPhones = data.phones;
-    const elem = itemPhones.map(el => {
-      return (
-        <Link to={{ 
-          pathname: '/prodGlassCover',
-          state: { data: el.products }
-        }} key={el.id}>
-          <img src={el.image}></img>
-        </Link>
+import './Phone.scss';
+
+ function Phone(props) {
+  const brandName = props.location.state.data.model;
+
+  const [models, setModels] = React.useState([]);
+
+  React.useEffect(() => {
+    axios.get('http://localhost:3002/model')
+        .then(({data}) => {
+          const result = data.filter(item => item.brandName == brandName)
+          setModels(result)
+      })
+  }, []);
+
+  return (
+    <div>
+      {models ? (
+        <div>
+          {
+            models.map((item, index) => (
+              <Link to={{ 
+                pathname: '/prodGlassCover',
+                state: { data: item }
+              }} key={index}>
+                <img src={item.image}></img>
+              </Link>
+            ))
+          }
+        </div>
+      ) : (
+        'Loading...'
       )
-    })
-    // console.log(itemPhones);
-    return (
-      <div className='phone'>
-        {elem}
-      </div>
-    )
-  }
+    }
+    </div>
+  )
 }
 
 

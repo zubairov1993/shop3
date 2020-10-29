@@ -3,19 +3,16 @@ import { Route, Switch } from 'react-router'
 import './AdminContent.scss'
 import AddBrand from './Links/AddBrand/AddBrand'
 import AddModel from './Links/AddBrand/AddModel/AddModel'
-import FakeAddModel from './Links/AddBrand/AddModel/FakeAddModel'
 import AddProducts from './Links/AddBrand/AddProducts/AddProducts'
-import FakeAddProd from './Links/AddBrand/AddProducts/FakeAddProd'
-import FakeAddBrand from './Links/AddBrand/FakeAddbrand'
 
 function AdminContent() {
   
   return (
     <div className='content'>
       <Switch>
-        <Route path='/admin/addBrand' exact component={FakeAddBrand}/>
-          <Route path='/admin/addModel' exact component={FakeAddModel} />
-            <Route path='/admin/addProducts' exact component={FakeAddProd} />
+        <Route path='/admin/addBrand' exact component={AddBrand}/>
+          <Route path='/admin/addModel' exact component={AddModel} />
+            <Route path='/admin/addProducts' exact component={AddProducts} />
 
         {/* <Route path='/admin/addBrasletsStraps' component={}/>
         <Route path='/admin/addAdapter' component={}/>
