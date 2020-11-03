@@ -20,7 +20,7 @@ import './Phone.scss';
   return (
     <div>
       {models ? (
-        <div>
+        <div className='phone'>
           {
             models.map((item, index) => (
               <Link to={{ 
@@ -28,6 +28,7 @@ import './Phone.scss';
                 state: { data: item }
               }} key={index}>
                 <img src={item.image}></img>
+                <p>{item.model}</p>
               </Link>
             ))
           }

@@ -1,13 +1,14 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+
+import './ProdGlassCover.scss';
 
 
  function ProdGlassCover(props) {
   const modelName = props.location.state.data.model;
 
   const [products, setProducts] = React.useState([]);
-
+  console.log(products);
   React.useEffect(() => {
     axios.get('http://localhost:3002/products')
         .then(({data}) => {
@@ -19,10 +20,16 @@ import { Link } from 'react-router-dom';
   return (
     <div>
       {products ? (
-        <div>
+        <div className='products-show'>
           {
             products.map((item, index) => (
-              <p key={index}>{item.name}</p>
+              <div key={index} className='products-show__item'>
+                <img src={item.image} alt="image"/>
+                <p>{item.name}</p>
+                <p>{item.color}</p>
+                <p>{item.description}</p>
+                <p>{item.counter}</p>
+              </div>
             ))
           }
         </div>

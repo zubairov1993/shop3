@@ -10,7 +10,7 @@ function SideBar() {
     <div className='sidebar'>
       <ul>
         <li><Link to='/admin/addBrand'>Стекла и Чехлы</Link></li>
-        <li><Link to='/admin/addBrasletsStraps'>браслеты и ремешки</Link></li>
+        <li><Link to='/admin/addBrasletsOrStraps'>браслеты и ремешки</Link></li>
         <li><Link to='/admin/addAdapter'>Кабеля и переходники</Link></li>
         <li><Link to='/admin/addCharging'>Зарядные устройства</Link></li>
         <li><Link to='/admin/addHeadphones'>Наушники</Link></li>

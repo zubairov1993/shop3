@@ -1,9 +1,9 @@
 import React from 'react'
 import axios from 'axios'
 
-import './AddProducts.scss'
+import './AddProdStraps.scss'
 
-function AddProducts(props) {
+function AddProdStraps(props) {
   const [lists, setLists] = React.useState(null);
   const [inputValue, setInputValue] = React.useState('');
   const [inputImage, setInputImage] = React.useState('');
@@ -21,8 +21,9 @@ function AddProducts(props) {
   }
 //// Получение
   React.useEffect(() => {
-    axios.get('http://localhost:3002/products')
+    axios.get('http://localhost:3001/products')
       .then(({data}) => {
+        console.log(data);
         const result = data.filter(item => item.modelName == modelName)
         setLists(result)
     })
@@ -39,7 +40,7 @@ function AddProducts(props) {
   }
 
   const addList = () => {
-    axios.post('http://localhost:3002/products', {
+    axios.post('http://localhost:3001/products', {
       "modelName" : modelName,
       "name": inputValue, 
       "image": inputImage, 
@@ -57,7 +58,7 @@ function AddProducts(props) {
 //// Удаление
   const removeList = (item) => {
     if(window.confirm('Вы точно хотите удалить?')) {
-      axios.delete('http://localhost:3002/products/' + item.id).then(() => {
+      axios.delete('http://localhost:3001/products/' + item.id).then(() => {
         onRemove(item.id)
     }) 
     }
@@ -85,7 +86,7 @@ function AddProducts(props) {
     const newImage = window.prompt('Внесите изменения', item.image);
     if(newImage) {
       onEditImage(item.id, newImage)
-      axios.patch('http://localhost:3002/products/' + item.id, {
+      axios.patch('http://localhost:3001/products/' + item.id, {
         image: newImage
       }).catch(() => {
         alert('ERROR')
@@ -110,7 +111,7 @@ function AddProducts(props) {
     const newName = window.prompt('Внесите изменения', item.name);
     if(newName) {
       onEditName(item.id, newName)
-      axios.patch('http://localhost:3002/products/' + item.id, {
+      axios.patch('http://localhost:3001/products/' + item.id, {
         name: newName
       }).catch(() => {
         alert('ERROR')
@@ -135,7 +136,7 @@ function AddProducts(props) {
     const newColor = window.prompt('Внесите изменения', item.color);
     if(newColor) {
       onEditColor(item.id, newColor)
-      axios.patch('http://localhost:3002/products/' + item.id, {
+      axios.patch('http://localhost:3001/products/' + item.id, {
         color: newColor
       }).catch(() => {
         alert('ERROR')
@@ -160,7 +161,7 @@ function AddProducts(props) {
     const newCounter = window.prompt('Внесите изменения', item.counter);
     if(newCounter) {
       onEditCounter(item.id, newCounter)
-      axios.patch('http://localhost:3002/products/' + item.id, {
+      axios.patch('http://localhost:3001/products/' + item.id, {
         counter: newCounter
       }).catch(() => {
         alert('ERROR')
@@ -185,7 +186,7 @@ function AddProducts(props) {
     const newDescr = window.prompt('Внесите изменения', item.description);
     if(newDescr) {
       onEditDescr(item.id, newDescr)
-      axios.patch('http://localhost:3002/products/' + item.id, {
+      axios.patch('http://localhost:3001/products/' + item.id, {
         description: newDescr
       }).catch(() => {
         alert('ERROR')
@@ -259,4 +260,4 @@ function AddProducts(props) {
   )
 }
 
-export default AddProducts
+export default AddProdStraps

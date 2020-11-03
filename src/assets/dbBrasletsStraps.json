@@ -1,0 +1,133 @@
+{
+  "nomination": [
+    {
+      "nomin": "watches",
+      "image": "https://comteh.com/files.php?file=upload/image/products/original/.big/NT31585/NT31585.jpg",
+      "id": 1
+    },
+    {
+      "nomin": "straps",
+      "image": "https://cdn.cultofmac.com/wp-content/uploads/2017/03/Apple-Watch-spring-2017.png",
+      "id": 2
+    }
+  ],
+  "brand": [
+    {
+      "nominName": "watches",
+      "model": "xiaomi",
+      "image": "https://remont-televizorov.ru/images/firmi/Xiaomi-Logo.png",
+      "id": 1
+    },
+    {
+      "nominName": "straps",
+      "model": "apple",
+      "image": "http://www.savassicelular.com.br/wp-content/uploads/2017/10/iphone-min.png",
+      "id": 2
+    },
+    {
+      "nominName": "straps",
+      "model": "xiaomi",
+      "image": "https://remont-televizorov.ru/images/firmi/Xiaomi-Logo.png",
+      "id": 3
+    }
+  ],
+  "model": [
+    {
+      "brandName": "apple",
+      "model": "38-40",
+      "image": "",
+      "id": 1
+    },
+    {
+      "brandName": "apple",
+      "model": "42-44",
+      "image": "",
+      "id": 2
+    },
+    {
+      "brandName": "xiaomi",
+      "model": "miBand 2",
+      "image": "",
+      "id": 3
+    },
+    {
+      "brandName": "xiaomi",
+      "model": "miBand 3/4",
+      "image": "",
+      "id": 4
+    },
+    {
+      "brandName": "xiaomi",
+      "model": "miBand 5",
+      "image": "",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "modelName": "38-40",
+      "image": "https://watchaware.com/wp-content/uploads/2017/06/watch-os-new-bands-one.pn",
+      "name": "Silicon",
+      "color": "black",
+      "counter": "22",
+      "description": "wwwxxxxxxxxxxxxxxxx",
+      "id": 1
+    },
+    {
+      "modelName": "42-44",
+      "image": "https://angrystore.ru/assets/components/phpthumbof/cache/2307.e60a3d2fc5c1eb82ebf1277f07fff0791647.png",
+      "name": "Silicon",
+      "color": "red",
+      "counter": "233",
+      "description": "wwwcccccccccccccccccc",
+      "id": 2
+    },
+    {
+      "modelName": "miBand 2",
+      "image": "https://im0-tub-ru.yandex.net/i?id=92e5aaef2c2825bd6c5f3004d8d5fda0&n=13",
+      "name": "Silicon",
+      "color": "white",
+      "counter": "2221",
+      "description": "wwwsssssssssssssssss",
+      "id": 3
+    },
+    {
+      "modelName": "miBand 3/4",
+      "image": "https://im0-tub-ru.yandex.net/i?id=92e5aaef2c2825bd6c5f3004d8d5fda0&n=13",
+      "name": "Silicon",
+      "color": "blue",
+      "counter": "21112",
+      "description": "wwwddddddddddddd",
+      "id": 4
+    },
+    {
+      "modelName": "miBand 5",
+      "image": "https://im0-tub-ru.yandex.net/i?id=92e5aaef2c2825bd6c5f3004d8d5fda0&n=13",
+      "name": "Silicon",
+      "color": "yellow",
+      "counter": "2222",
+      "description": "wwwaaaaaaaaw",
+      "id": 5
+    },
+    {
+      "nominName": "watches",
+      "model": "miBand 2",
+      "image": "https://im0-tub-ru.yandex.net/i?id=92e5aaef2c2825bd6c5f3004d8d5fda0&n=13",
+      "name": "watches",
+      "color": "black",
+      "counter": "3333",
+      "description": "wwwaaaaaaaaw",
+      "id": 5
+    },
+    {
+      "nominName": "watches",
+      "model": "xiaomi",
+      "name": "watches",
+      "image": "wawds",
+      "color": "red",
+      "description": "s,,,s,s,s",
+      "counter": "6666",
+      "id": 6
+    }
+  ]
+}
