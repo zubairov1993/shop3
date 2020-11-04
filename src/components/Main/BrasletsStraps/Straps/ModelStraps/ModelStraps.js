@@ -2,18 +2,17 @@ import React from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
 
-import './Straps.scss'
+import './ModelStraps.scss'
 
-function Straps(props) {
+function ModelStraps(props) {
   const [lists, setLists] = React.useState(null);
 
-  const nominName = props.location.state.data.nomin;
-  console.log(nominName);
+  const modelName = props.location.state.data.model;
 
   React.useEffect(() => {
-    axios.get('http://localhost:3001/brand')
+    axios.get('http://localhost:3001/model')
       .then(({data}) => {
-        const result = data.filter(item => item.nominName == nominName)
+        const result = data.filter(item => item.brandName == modelName)
         setLists(result)
     })
   }, [setLists]);
@@ -27,7 +26,7 @@ function Straps(props) {
               return (
                 <div className="phone__block" key={index}>
                   <Link to={{ 
-                    pathname: '/modelStraps',
+                    pathname: '/prodStraps',
                     state: {data: item}
                   }} 
                     className='phone__block-item'
@@ -48,4 +47,4 @@ function Straps(props) {
   )
 }
 
-export default Straps
+export default ModelStraps

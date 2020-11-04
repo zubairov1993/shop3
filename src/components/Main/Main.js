@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.scss'
 
+
 import {Route, Switch} from 'react-router-dom';
 import { 
   NavBar, 
@@ -11,10 +12,11 @@ import {
   ProdGlassCover, 
 
   BrasletsStraps, 
-  LogoStraps,
   Straps,
+  ModelStraps,
+  ProdStraps,
   Braslets,
-  ProdBrasletsStraps,
+  ProdBraslets,
 
   PowerBank, 
   AdapterCable, 
@@ -29,15 +31,15 @@ import {
 
 function Main() {
 
-const [braslets, setBraslets] = React.useState([]);
+// const [braslets, setBraslets] = React.useState([]);
 
-React.useEffect(() => {
-  fetch('http://localhost:3000/dbBrasletsStraps.json')
-    .then((resp) => resp.json())
-    .then((json) => {
-      setBraslets(json.brasletsStraps);
-  });
-}, []);
+// React.useEffect(() => {
+//   fetch('http://localhost:3000/dbBrasletsStraps.json')
+//     .then((resp) => resp.json())
+//     .then((json) => {
+//       setBraslets(json.brasletsStraps);
+//   });
+// }, []);
 
   return (
     <div className='main'>
@@ -50,11 +52,12 @@ React.useEffect(() => {
               <Route path='/phoneModels' component={Phone} />
                 <Route path='/prodGlassCover' component={ProdGlassCover} />
 
-            <Route path='/brasletsStraps' render={() => <BrasletsStraps items={braslets}/>} />
-              <Route path='/straps' component={LogoStraps}/>
-                <Route path='/strapsModel' component={Straps}/>
+            <Route path='/brasletsStraps' component={BrasletsStraps} />
+              <Route path='/straps' component={Straps}/>
+                <Route path='/modelStraps' component={ModelStraps}/>
+                <Route path='/prodStraps' component={ProdStraps}/>
               <Route path='/braslets' component={Braslets}/>
-                <Route path='/prodBrasletsStraps' component={ProdBrasletsStraps}/>
+                <Route path='/prodBraslets' component={ProdBraslets}/>
 
             <Route path='/adapter' component={AdapterCable} />
             <Route path='/charging' component={ChargingDevice} />

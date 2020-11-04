@@ -6,10 +6,11 @@ import Phone from './GlassCover/Phone/Phone';
 import ProdGlassCover from './GlassCover/ProdGlassCover/ProdGlassCover';
 
 import BrasletsStraps from './BrasletsStraps/BrasletsStraps';
-import LogoStraps from './BrasletsStraps/LogoStraps/LogoStraps';
 import Straps from './BrasletsStraps/Straps/Straps';
+import ModelStraps from './BrasletsStraps/Straps/ModelStraps/ModelStraps';
+import ProdStraps from './BrasletsStraps/Straps/ProdStraps/ProdStraps';
 import Braslets from './BrasletsStraps/Braslets/Braslets';
-import ProdBrasletsStraps from './BrasletsStraps/ProdBrasletsStraps/ProdBrasletsStraps';
+import ProdBraslets from './BrasletsStraps/Braslets/ProdBraslets/ProdBraslets';
 
 import PowerBank from './PowerBank/PowerBank';
 import AdapterCable from './AdapterCable/AdapterCable';
@@ -30,9 +31,10 @@ export {
 
   BrasletsStraps,
   Braslets,
-  LogoStraps,
+  ProdBraslets,
   Straps,
-  ProdBrasletsStraps,
+  ModelStraps,
+  ProdStraps,
 
   PowerBank,
   AdapterCable,

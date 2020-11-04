@@ -1,31 +1,50 @@
-import React from 'react';
+import React from 'react'
+import axios from 'axios'
+import { Link } from 'react-router-dom';
 
- class Braslets extends React.Component {
-  constructor(props) {
-    super(props); 
-    this.state = {
-      data: this.props.location.state.data
-    }
-  }
-  
-  render() {
-    const data = this.state.data;
-    const item = data.products;
-    const elem = item.map(el => {
-      return (
-          <div className='logo-braslets' key={el.model}>
-            <img src={el.image} alt={el.model}/>
-            <p>{el.model}</p>
-        </div>
-      )
+import './Braslets.scss'
+
+function Braslets(props) {
+  const [lists, setLists] = React.useState(null);
+
+  const nominName = props.location.state.data.nomin;
+
+  React.useEffect(() => {
+    axios.get('http://localhost:3001/brand')
+      .then(({data}) => {
+        const result = data.filter(item => item.nominName == nominName)
+        setLists(result)
     })
-    return (
-      <div className='phone'>
-        {elem}
-      </div>
-    )
-  }
+  }, [setLists]);
+
+  return (
+    <div>
+      {lists ? (
+        <div className='phone'>
+          {
+            lists.map((item, index) => {
+              return (
+                <div className="phone__block" key={index}>
+                  <Link to={{ 
+                    pathname: '/prodBraslets',
+                    state: {data: item}
+                  }} 
+                    className='phone__block-item'
+                    >
+                    <img src={item.image} alt="image"/>
+                    <p>{item.model}</p>
+                  </Link>
+                </div>
+              )
+            })
+          }
+        </div>
+      ) : (
+        'Loading...'
+      )
+    }
+    </div>
+  )
 }
 
-
-export default Braslets;
+export default Braslets
