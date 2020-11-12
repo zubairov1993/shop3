@@ -16,6 +16,7 @@ function NavBar() {
         <li><Link to='/accum'>Аккумуляторы</Link></li>
         <li><Link to='/bags'>Сумки</Link></li>
         <li><Link to='/others'>Прочее</Link></li>
+        <li><Link to='/admin'>Панель Администратора</Link></li>
       </ul>
       
     </div>
